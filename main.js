@@ -29,3 +29,13 @@ $(document).ready(function () {
 });
 
 
+var altura = screen.height;
+var anchura = screen.width ; 
+
+function mostrarAltura(){
+  alert(altura)
+}
+
+function mostrarAnchura(){
+  alert(anchura)
+}
