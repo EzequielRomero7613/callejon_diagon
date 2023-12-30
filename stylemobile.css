@@ -7,19 +7,22 @@
         scroll-behavior: smooth;
     }
 
+    header {
+      display: grid;
+    }
 
     .hero-image {
         height: 120px;
         width: auto;
         position: relative;
-        margin-left: 0px !important;
+        margin-left: 100px !important;
     }
 
     .navigation{
         text-align: center;
         font-size: 22px;
         display: flex;
-        
+
         padding: 5px;
     }
 
@@ -82,7 +85,8 @@
         box-shadow: 3px 3px 5px #a11b09;
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/pexels-rdne-stock-project-7978129.jpg");
         height: 350px;
-        width: auto;
+        width: 85%;
+        margin-left: 15px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -99,7 +103,8 @@
         box-shadow: 3px 3px 5px #a7830ee3;
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/pexels-mikhail-nilov-8391465.jpg");
         height: 350px;
-        width: auto;
+        width: 85%;
+        margin-left: 15px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -115,7 +120,8 @@
         box-shadow: 3px 3px 5px #090799e3;
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/pexels-rdne-stock-project-7978248.jpg");
         height: 350px;
-        width: auto;
+        width: 85%;
+        margin-left: 15px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -131,7 +137,8 @@
         box-shadow: 3px 3px 5px #144514;
         background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/pexels-vinícius-vieira-ft-3151954.jpg");
         height: 350px;
-        width: auto;
+        width: 85%;
+        margin-left: 15px;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -683,10 +690,10 @@
 
 
 
-    .instagram-posts{
-      margin: 5px;
-      padding: 5px;
-      margin-bottom: 15px;
+    .instagram-posts iframe{
+      
+      margin: 15px;
+     
     }
 
 
